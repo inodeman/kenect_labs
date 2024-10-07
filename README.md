@@ -1,5 +1,22 @@
 # contact-aggregator
 
+## Simple Maven Package
+
+```shell script
+./mvn clean install
+```
+
+## Simple Quarkus Run
+
+```shell script
+./mvn quarkus:dev
+```
+
+Testing the EndPoint
+
+http://localhost:8080/contacts
+
+
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
 
 If you want to learn more about Quarkus, please visit its website: https://quarkus.io/ .
