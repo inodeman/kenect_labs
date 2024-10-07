@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <!-- BOM Project Coordinates -->
+    <groupId>com.example</groupId>
+    <artifactId>contact-aggregator-bom</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <!-- Dependency Management Section -->
+    <dependencyManagement>
+        <dependencies>
+            <!-- Add your centralized dependencies here -->
+            <dependency>
+                <groupId>io.quarkus</groupId>
+                <artifactId>quarkus-resteasy</artifactId>
+                <version>3.2.0.Final</version>
+            </dependency>
+
+            <dependency>
+                <groupId>io.quarkus</groupId>
+                <artifactId>quarkus-rest-client</artifactId>
+                <version>3.2.0.Final</version>
+            </dependency>
+
+            <dependency>
+                <groupId>jakarta.ws.rs</groupId>
+                <artifactId>jakarta.ws.rs-api</artifactId>
+                <version>3.0.0</version>
+            </dependency>
+
+            <!-- Other dependencies with their versions -->
+            <dependency>
+                <groupId>io.rest-assured</groupId>
+                <artifactId>rest-assured</artifactId>
+                <version>4.5.0</version>
+            </dependency>
+
+            <!-- Add more dependencies as needed -->
+
+        </dependencies>
+    </dependencyManagement>
+
+</project>
